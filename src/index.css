@@ -10,5 +10,12 @@
 }
 
 body {
-    background-color: black;
+    background-image: 
+        linear-gradient(rgba(32, 14, 38, 0.5), rgba(32, 14, 38, 0.5)), 
+        url('./Images/abyss_background_wide.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #200E26;
 }

@@ -2,41 +2,41 @@
     {
         "id": "1",
         "Nombre": "Xiao",
-        "imagen": "../src/Images/Icons/xiao.png"
+        "imagen": "./Icons/xiao.png"
     },
     {
         "id": "2",
         "Nombre": "Diluc",
-        "imagen": "../src/Images/Icons/diluc.png"
+        "imagen": "./Icons/diluc.png"
     },
     {
         "id": "3",
         "Nombre": "Arlequino",
-        "imagen": "../src/Images/Icons/arlequino.png"
+        "imagen": "./Icons/arlequino.png"
     },
     {
         "id": "4",
         "Nombre": "Xinqiu",
-        "imagen": "../src/Images/Icons/xinqiu.png"
+        "imagen": "./Icons/xinqiu.png"
     },
     {
         "id": "5",
         "Nombre": "Fischl",
-        "imagen": "../src/Images/Icons/fischl.png"
+        "imagen": "./Icons/fischl.png"
     },
     {
         "id": "6",
         "Nombre": "Noelle",
-        "imagen": "../src/Images/Icons/noelle.png"
+        "imagen": "./Icons/noelle.png"
     },
     {
         "id": "7",
         "Nombre": "Cyno",
-        "imagen": "../src/Images/Icons/cyno.png"
+        "imagen": "./Icons/cyno.png"
     },
     {
         "id": "8",
         "Nombre": "Raiden",
-        "imagen": "../src/Images/Icons/raiden.png"
+        "imagen": "./Icons/raiden.png"
     }
 ]

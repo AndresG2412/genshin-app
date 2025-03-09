@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+.backnavbar {
+    background: rgb(8,18,31);
+    background: linear-gradient(90deg, rgba(8,18,31,1) 0%, rgba(13,45,88,1) 40%, rgba(13,45,88,1) 60%, rgba(8,18,31,1) 100%);
+}
+
+.shadowwhite {
+    box-shadow: rgba(250, 250, 253, 0.75) 0px 20px 70px -10px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.3) 0px -2px 6px 0px inset;
+}
+
+body {
+    background-color: black;
+}

@@ -21,23 +21,74 @@ export default function Home() {
     }, []);
 
     return (
-        <div className="container mx-auto mt-36 px-8">
-            <div className="max-w-screen-lg mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                {personajes.map((personaje) => (
-                    <div key={personaje.id} className="bg-[#222] rounded-xl shadow-lg p-4 overflow-hidden aspect-[3/4] flex flex-col">
-                        <p className="text-center font-bold tracking-wider uppercase text-xl text-white mb-2 md:text-2xl">
-                            {personaje.Nombre}
-                        </p>
-                        <div className="w-full h-full flex justify-center">
-                            <img 
-                                src={personaje.imagen} 
-                                alt={personaje.Nombre} 
-                                className="h-full object-cover rounded-lg"
-                            />
-                        </div>
+        // <div classNameName="container mx-auto mt-36 px-8">
+        //     <div classNameName="max-w-screen-lg mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        //         {personajes.map((personaje) => (
+        //             <div key={personaje.id} classNameName= bg-[#222] rounded-xlded-xl shadow-lg p-4 overflow-hidden aspect-[3/4] w-44 flex flex-col">
+        //                 <p classNameName="text-center font-bold tracking-wider uppercase text-xl text-white mb-2 md:text-2xl">
+        //                     {personaje.Nombre}
+        //                 </p>
+        //                 <div classNameName="w-full h-full flex justify-center">
+        //                     <img 
+        //                         src={personaje.imagen} 
+        //                         alt={personaje.Nombre} 
+        //                         classNameName="h-full object-cover rounded-lg"
+        //                     />
+        //                 </div>
+        //             </div>
+        //         ))}
+        //     </div>
+        // </div>
+
+        <div className="mt-36">
+            <div className="slider">
+                <div className="slide-track">
+                    <div className="slide bg-[#222] rounded-xl">
+                        <img src="/Icons/xiao.png" alt=""/>
                     </div>
-                ))}
+                    <div className="slide bg-[#222] rounded-xl">
+                        <img src="/Icons/diluc.png" alt=""/>
+                    </div>
+                    <div className="slide bg-[#222] rounded-xl">
+                        <img src="/Icons/arlequino.png" alt=""/>
+                    </div>
+                    <div className="slide bg-[#222] rounded-xl">
+                        <img src="/Icons/cyno.png" alt=""/>
+                    </div>
+                    <div className="slide bg-[#222] rounded-xl">
+                        <img src="/Icons/fischl.png" alt=""/>
+                    </div>
+                    <div className="slide bg-[#222] rounded-xl">
+                        <img src="/Icons/noelle.png" alt=""/>
+                    </div>
+                    <div className="slide bg-[#222] rounded-xl">
+                        <img src="/Icons/raiden.png" alt=""/>
+                    </div>
+
+                    <div className="slide bg-[#222] rounded-xl">
+                        <img src="/Icons/xiao.png" alt=""/>
+                    </div>
+                    <div className="slide bg-[#222] rounded-xl">
+                        <img src="/Icons/diluc.png" alt=""/>
+                    </div>
+                    <div className="slide bg-[#222] rounded-xl">
+                        <img src="/Icons/arlequino.png" alt=""/>
+                    </div>
+                    <div className="slide bg-[#222] rounded-xl">
+                        <img src="/Icons/cyno.png" alt=""/>
+                    </div>
+                    <div className="slide bg-[#222] rounded-xl">
+                        <img src="/Icons/fischl.png" alt=""/>
+                    </div>
+                    <div className="slide bg-[#222] rounded-xl">
+                        <img src="/Icons/noelle.png" alt=""/>
+                    </div>
+                    <div className="slide bg-[#222] rounded-xl">
+                        <img src="/Icons/raiden.png" alt=""/>
+                    </div>
+                </div>
             </div>
         </div>
+
     );
 }

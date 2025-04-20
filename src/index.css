@@ -25,7 +25,6 @@ body {
 }
 
 .slider {
-    width: 60vw;
     height: auto;
     margin: auto;
     overflow: hidden;
@@ -34,7 +33,7 @@ body {
 .slider .slide-track {
     display: flex;
     animation: scroll 40s linear infinite;
-    -webkit-animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 30s linear infinite;
     width: calc(200px * 14);
     column-gap: 30px;
 }

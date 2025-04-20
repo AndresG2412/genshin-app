@@ -12,7 +12,7 @@ export default function Slider() {
 
     return (
         <div className="mt-36 overflow-hidden">
-            <div className="slider">
+            <div className="slider md:w-[60vw] w-[85vw]">
                 <div className="slide-track flex">
                     {characters.concat(characters).map((char, index) => (
                         <div key={index} className="slide bg-[#222] rounded-xl flex flex-col items-center p-2">

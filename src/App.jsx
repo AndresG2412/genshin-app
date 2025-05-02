@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router"
 
-import Home from './Pages/Home.jsx'
-import Teams from './Pages/Teams.jsx'
-import Guies from './Pages/Guies.jsx'
-import Farm from './Pages/Farm.jsx'
+import Home from './pages/Home.jsx'
+import Teams from './pages/Teams.jsx'
+import Guies from './pages/Guies.jsx'
+import Farm from './pages/Farm.jsx'
 
 export default function App() {
     return(
